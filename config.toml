@@ -93,38 +93,24 @@ name = "Fira Mono"
 sizes = [300,400,600,700]
 
 [[params.adopters]]
-logo = "https://img.etcd.cn/artwork/projects/kubernetes/horizontal/color/kubernetes-horizontal-color.png"
-link = "https://kubernetes.io"
 description = "etcd是服务发现的后端，并存储集群状态和配置"
 
 [[params.adopters]]
-logo = "https://img.etcd.cn/artwork/projects/rook/horizontal/color/rook-horizontal-color.png"
-link = "https://rook.io"
 description = "etcd充当Rook的编排引擎"
 
 [[params.adopters]]
-name = "Patroni"
-link = "https://github.com/zalando/patroni"
 description = "带有ZooKeeper，etcd或Consul的PostgreSQL HA的模板"
 
 [[params.adopters]]
-name = "Trillian"
-link = "https://github.com/google/trillian/"
 description = "由Google创建的透明，高度可扩展且可加密验证的数据存储"
 
 [[params.adopters]]
-logo = "https://img.etcd.cn/artwork/projects/coredns/horizontal/color/coredns-horizontal-color.png"
-link = "https://coredns.io"
 description = "CoreDNS使用etcd作为可选后端"
 
 [[params.adopters]]
-logo = "/img/m3-logo.png"
-link = "https://eng.uber.com/m3/"
 description = "由Uber创建的Prometheus大型指标平台M3使用etcd进行规则存储和其他功能"
 
 [[params.adopters]]
-link = "https://openstack.org"
-logo = "/img/openstack-logo.svg"
 description = "OpenStack支持etcd作为可选的配置存储，分布式键锁定，等等"
 
 [mediaTypes."text/netlify"]
